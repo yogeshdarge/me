@@ -1,0 +1,24 @@
+html.is-changing .transition-main {
+  transition: opacity 250ms ease-in-out;
+}
+
+html.is-animating .transition-main {
+  opacity: 0;
+}
+
+.swup-progress-bar {
+  height: 4px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  pointer-events: none;
+  width: auto;
+  opacity: 0;
+  background: #10b981;
+  background-size: 100% auto;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.1s, height 0.4s, opacity 0.4s;
+  z-index: 999999;
+}

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full dark is-animating is-leaving">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Building a Secure, Scalable App with Flutter, Supabase, and Cloudinary</title>
+
+<!-- Icons -->
+<!-- Standard Meta Tags -->
+<meta name="title" content="Building a Secure, Scalable App with Flutter, Supabase, and Cloudinary" />
+<meta name="description" content="Stack Developer (iOS/Android/Web) | Flutter Native & Hybrid | UI/UX Designer | End-to-End
+            Expertise." />
+
+<!-- Open Graph / Facebook Meta Tags -->
+<meta property="og:title" content="Building a Secure, Scalable App with Flutter, Supabase, and Cloudinary" />
+<meta property="og:url" content="https://yogeshdarge.com" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Stack Developer (iOS/Android/Web) | Flutter Native & Hybrid | UI/UX Designer | End-to-End
+            Expertise." />
+<meta property="og:image" content="https://yogeshdarge.com/img/yogeshdarge.png" />
+<meta property="og:locale" content="en_IN" />
+<meta property="og:site_name" content="Building a Secure, Scalable App with Flutter, Supabase, and Cloudinary" />
+
+<!-- Optional: Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Building a Secure, Scalable App with Flutter, Supabase, and Cloudinary" />
+<meta name="twitter:description" content="Stack Developer (iOS/Android/Web) | Flutter Native & Hybrid | UI/UX Designer | End-to-End
+            Expertise." />
+<meta name="twitter:image" content="https://yogeshdarge.com/img/yogeshdarge.png" />
+
+
+<!-- Styles -->
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/transitions.css" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="module" src="js/swup.js"></script>
+</head>
+
+<body class="antialiased bg-gray-50 dark:bg-black min-h-screen">
+
+<div class="layout">
+
+<header class="fixed top-0 w-full z-50 header">
+<nav class="mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl">
+    <ul class="flex items-center my-4 px-3 text-sm font-medium text-gray-800 rounded-xl shadow-lg shadow-gray-800/5 ring-1 backdrop-blur bg-white dark:bg-[#0a0a0a] dark:text-gray-200 dark:ring-white/20 ring-gray-900/5">
+    <!--[-->
+    <li class="is-link" data-id="index">
+        <div class="relative inline-flex">
+            <!--[-->
+            <a class="relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400"
+                href="/" as="button" active="false" exact="false" exactquery="false" exacthash="false">
+                <!--[-->
+
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true" role="img" class="icon w-5 h-5 z-10" width="1em" height="1em"
+                    viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M9.447 15.398a.75.75 0 1 0-.894 1.204A5.77 5.77 0 0 0 12 17.75a5.77 5.77 0 0 0 3.447-1.148a.75.75 0 1 0-.894-1.204A4.27 4.27 0 0 1 12 16.25a4.27 4.27 0 0 1-2.553-.852">
+                    </path>
+                    <path fill="currentColor" fill-rule="evenodd"
+                        d="M12 1.25c-.708 0-1.351.203-2.05.542c-.674.328-1.454.812-2.427 1.416L5.456 4.491c-.92.572-1.659 1.03-2.227 1.465c-.589.45-1.041.91-1.368 1.507c-.326.595-.472 1.229-.543 1.978c-.068.725-.068 1.613-.068 2.726v1.613c0 1.904 0 3.407.153 4.582c.156 1.205.486 2.178 1.23 2.947c.747.773 1.697 1.119 2.875 1.282c1.14.159 2.598.159 4.434.159h4.116c1.836 0 3.294 0 4.434-.159c1.177-.163 2.128-.509 2.876-1.282c.743-.769 1.073-1.742 1.23-2.947c.152-1.175.152-2.678.152-4.582v-1.613c0-1.113 0-2-.068-2.726c-.07-.75-.217-1.383-.543-1.978c-.327-.597-.78-1.056-1.368-1.507c-.568-.436-1.306-.893-2.227-1.465l-2.067-1.283c-.973-.604-1.753-1.088-2.428-1.416c-.697-.34-1.34-.542-2.049-.542M8.28 4.504c1.015-.63 1.73-1.072 2.327-1.363c.581-.283.993-.391 1.393-.391s.812.108 1.393.391c.598.29 1.312.733 2.327 1.363l2 1.241c.961.597 1.636 1.016 2.14 1.402c.489.375.77.684.963 1.036c.193.353.306.766.365 1.398c.061.648.062 1.465.062 2.623v1.521c0 1.97-.002 3.376-.14 4.443c-.136 1.048-.393 1.656-.82 2.099c-.425.439-1.003.7-2.004.839c-1.026.142-2.379.144-4.286.144h-4c-1.908 0-3.26-.002-4.286-.144c-1.001-.14-1.579-.4-2.003-.84c-.428-.442-.685-1.05-.82-2.098c-.14-1.067-.141-2.472-.141-4.443v-1.521c0-1.158 0-1.975.062-2.623c.059-.632.172-1.045.365-1.398c.193-.352.474-.661.964-1.036c.503-.386 1.178-.805 2.139-1.402z"
+                        clip-rule="evenodd"></path>
+                </svg>
+
+                <span
+                    class="absolute hidden inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0"></span>
+
+                <span
+                    class="absolute hidden h-8 w-8 z-0 rounded-full bg-gray-100 dark:bg-white/10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+                <span class="sr-only">Home</span>
+
+                <!--]-->
+            </a>
+            <!--]-->
+            <!---->
+        </div>
+    </li>
+    <li class="is-link" data-id="projects">
+        <div class="relative inline-flex active">
+            <!--[-->
+            <a class="relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400"
+                href="/projects.html" as="button" active="false" exact="false" exactquery="false"
+                exacthash="false">
+                <!--[-->
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true" role="img" class="icon w-5 h-5 z-10" width="1em"
+                    height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" fill-rule="evenodd"
+                        d="M6.86 1.25h.127c.351 0 .577 0 .798.02a4.75 4.75 0 0 1 2.474.98h6.299c.409 0 .687 0 .931.032a3.75 3.75 0 0 1 3.248 3.427a3 3 0 0 1 .77.503q.15.133.281.28c.529.588.754 1.303.86 2.144c.102.812.102 1.838.102 3.111v2.31c0 1.837 0 3.293-.153 4.432c-.158 1.172-.49 2.121-1.238 2.87c-.749.748-1.698 1.08-2.87 1.238c-1.14.153-2.595.153-4.433.153H9.944c-1.838 0-3.294 0-4.433-.153c-1.172-.158-2.121-.49-2.87-1.238c-.748-.749-1.08-1.698-1.238-2.87c-.153-1.14-.153-2.595-.153-4.433V6.86c0-.797 0-1.303.082-1.74A4.75 4.75 0 0 1 5.12 1.331c.438-.082.944-.082 1.74-.082m12.287 4.078a2.25 2.25 0 0 0-1.853-1.559c-.134-.017-.306-.019-.794-.019h-4.689c.643.64.935.906 1.266 1.09q.328.182.689.286c.413.117.866.124 2.062.124h.425c1.162 0 2.119 0 2.894.078M6.95 2.75c-.917 0-1.271.003-1.553.056a3.25 3.25 0 0 0-2.59 2.591c-.054.282-.057.636-.057 1.553V14c0 1.907.002 3.262.14 4.29c.135 1.005.389 1.585.812 2.008s1.003.677 2.009.812c1.028.138 2.382.14 4.289.14h4c1.907 0 3.262-.002 4.29-.14c1.005-.135 1.585-.389 2.008-.812s.677-1.003.812-2.009c.138-1.027.14-2.382.14-4.289v-2.202c0-1.336-.001-2.267-.09-2.975c-.087-.689-.246-1.06-.487-1.328a2 2 0 0 0-.168-.168c-.268-.241-.64-.4-1.328-.487c-.707-.089-1.639-.09-2.975-.09h-.484c-1.048 0-1.724 0-2.363-.182c-.35-.1-.689-.24-1.008-.417c-.58-.324-1.058-.801-1.8-1.543l-.077-.078l-.55-.55a8 8 0 0 0-.503-.482a3.25 3.25 0 0 0-1.771-.734a8 8 0 0 0-.696-.014m5.3 7.25a.75.75 0 0 1 .75-.75h5a.75.75 0 0 1 0 1.5h-5a.75.75 0 0 1-.75-.75"
+                        clip-rule="evenodd"></path>
+                </svg>
+                <!---->
+                <span
+                    class="absolute hidden inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0"></span>
+
+                <span
+                    class="absolute hidden h-8 w-8 z-0 rounded-full bg-gray-100 dark:bg-white/10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+                <!---->
+                <span class="sr-only">Projets</span>
+                <!--]-->
+            </a>
+            <!--]-->
+            <!---->
+        </div>
+    </li>
+    <li class="is-link" data-id="articles">
+        <div class="relative inline-flex">
+            <!--[-->
+            <a class="relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400 text-primary-600 dark:text-primary-400"
+                href="/articles.html" as="button" active="true" exact="false" exactquery="false"
+                exacthash="false">
+                <!--[-->
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true" role="img" class="icon w-5 h-5 z-10"  width="1em"
+                    height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" fill-rule="evenodd"
+                        d="M10.944 1.25h2.112c1.838 0 3.294 0 4.433.153c1.172.158 2.121.49 2.87 1.238a.75.75 0 0 1-1.06 1.06c-.424-.422-1.004-.676-2.01-.811c-1.027-.138-2.382-.14-4.289-.14h-2c-1.907 0-3.261.002-4.29.14c-1.005.135-1.585.389-2.008.812S4.025 4.705 3.89 5.71c-.138 1.029-.14 2.383-.14 4.29v4c0 1.907.002 3.262.14 4.29c.135 1.005.389 1.585.812 2.008s1.003.677 2.009.812c1.028.138 2.382.14 4.289.14h2c1.907 0 3.262-.002 4.29-.14c1.005-.135 1.585-.389 2.008-.812c.696-.696.907-1.777.943-4.309a.75.75 0 0 1 1.5.022c-.035 2.427-.192 4.158-1.382 5.348c-.749.748-1.698 1.08-2.87 1.238c-1.14.153-2.595.153-4.433.153h-2.112c-1.838 0-3.294 0-4.433-.153c-1.172-.158-2.121-.49-2.87-1.238c-.748-.749-1.08-1.698-1.238-2.87c-.153-1.14-.153-2.595-.153-4.433V9.944c0-1.838 0-3.294.153-4.433c.158-1.172.49-2.121 1.238-2.87c.749-.748 1.698-1.08 2.87-1.238c1.14-.153 2.595-.153 4.433-.153m7.17 5.796a2.716 2.716 0 1 1 3.84 3.84L17.2 15.643a7 7 0 0 1-.63.587q-.346.27-.744.46c-.224.107-.46.185-.806.3l-2.084.695a1.28 1.28 0 0 1-1.62-1.62l.681-2.04l.014-.043c.116-.347.194-.582.301-.806a4 4 0 0 1 .46-.744c.153-.196.328-.371.587-.63l.031-.031zm2.78 1.06a1.216 1.216 0 0 0-1.72 0l-.182.182l.034.107c.094.27.273.63.611.968a2.55 2.55 0 0 0 1.075.645l.182-.182a1.216 1.216 0 0 0 0-1.72m-1.328 3.048a4 4 0 0 1-.99-.73a4 4 0 0 1-.73-.99L14.45 12.83c-.301.301-.407.409-.496.523q-.17.218-.289.467c-.062.131-.111.274-.246.678l-.4 1.2l.283.283l1.2-.4c.404-.135.547-.184.678-.246q.248-.12.467-.289c.114-.089.222-.195.523-.496zM7.25 9A.75.75 0 0 1 8 8.25h6.5a.75.75 0 0 1 0 1.5H8A.75.75 0 0 1 7.25 9m0 4a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1-.75-.75m0 4a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1-.75-.75"
+                        clip-rule="evenodd"></path>
+                </svg>
+                <!---->
+                <span
+                    class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0"></span>
+
+                <span
+                    class="absolute h-8 w-8 z-0 rounded-full bg-gray-100 dark:bg-white/10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+                <!---->
+                <span class="sr-only">Articles</span>
+                <!--]-->
+            </a>
+            <!--]-->
+            <!---->
+        </div>
+    </li>
+    <li class="is-link" data-id="about">
+        <div class="relative inline-flex">
+            <!--[-->
+            <a class="relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400"
+                href="/about.html" as="button" active="false" exact="false" exactquery="false" exacthash="false">
+                <!--[-->
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true" role="img" class="icon w-5 h-5 z-10"  width="1em"
+                    height="1em" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="1.5"
+                        d="M17.982 18.725A7.49 7.49 0 0 0 12 15.75a7.49 7.49 0 0 0-5.982 2.975m11.964 0a9 9 0 1 0-11.963 0m11.962 0A8.97 8.97 0 0 1 12 21a8.97 8.97 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0a3 3 0 0 1 6 0">
+                    </path>
+                </svg>
+                <!---->
+                <span
+                    class="absolute hidden inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0"></span>
+
+                <span
+                    class="absolute hidden h-8 w-8 z-0 rounded-full bg-gray-100 dark:bg-white/10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+                <!---->
+                <span class="sr-only">About</span>
+                <!--]-->
+            </a>
+            <!--]-->
+            <!---->
+        </div>
+    </li>
+    <li class="is-link" data-id="whats-in-my-bag">
+        <div class="relative inline-flex">
+            <!--[-->
+            <a class="relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400"
+                href="/whats-in-my-bag.html" as="button" active="false" exact="false" exactquery="false"
+                exacthash="false">
+                <!--[-->
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true" role="img" class="icon w-5 h-5 z-10"  width="1em"
+                    height="1em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M10 12.25a.75.75 0 1 0 0 1.5h4a.75.75 0 0 0 0-1.5z"></path>
+                    <path fill="currentColor" fill-rule="evenodd"
+                        d="M7.32 4.275A3.75 3.75 0 0 1 11 1.25h2a3.75 3.75 0 0 1 3.68 3.025a6.75 6.75 0 0 1 5.07 6.445v5.655a5.27 5.27 0 0 1-4.126 5.143a25.9 25.9 0 0 1-11.248 0a5.27 5.27 0 0 1-4.126-5.143V10.72a6.75 6.75 0 0 1 5.07-6.445m1.695-.335A2.25 2.25 0 0 1 11 2.75h2c.86 0 1.607.482 1.986 1.19a19.8 19.8 0 0 0-5.971 0m11.235 6.971v2.596a21.4 21.4 0 0 1-16.5 0V10.74a5.25 5.25 0 0 1 4.207-5.074c.084-.02.124-.028.164-.037a18.25 18.25 0 0 1 7.759 0l.163.037l.167.037a5.25 5.25 0 0 1 4.04 5.207m-16.5 5.464v-1.252a22.9 22.9 0 0 0 13 1.04V17a.75.75 0 0 0 1.5 0v-1.209a23 23 0 0 0 2-.668v1.252a3.77 3.77 0 0 1-2.951 3.68c-3.49.775-7.108.775-10.598 0a3.77 3.77 0 0 1-2.95-3.68"
+                        clip-rule="evenodd"></path>
+                </svg>
+                <!---->
+                <span
+                    class="absolute hidden inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0"></span>
+
+                <span
+                    class="absolute hidden h-8 w-8 z-0 rounded-full bg-gray-100 dark:bg-white/10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+                <!---->
+                <span class="sr-only">What's in my bag?</span>
+                <!--]-->
+            </a>
+            <!--]-->
+            <!---->
+        </div>
+    </li>
+    <li class="is-link" data-id="bookmarks">
+        <div class="relative inline-flex">
+            <!--[-->
+            <a class="relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400"
+                href="/bookmarks.html" as="button" active="false" exact="false" exactquery="false"
+                exacthash="false">
+                <!--[-->
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true" role="img" class="icon w-5 h-5 z-10"  width="1em"
+                    height="1em" viewBox="0 0 24 24">
+                    <g fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path
+                            d="M21 16.09v-4.992c0-4.29 0-6.433-1.318-7.766C18.364 2 16.242 2 12 2S5.636 2 4.318 3.332S3 6.81 3 11.098v4.993c0 3.096 0 4.645.734 5.321c.35.323.792.526 1.263.58c.987.113 2.14-.907 4.445-2.946c1.02-.901 1.529-1.352 2.118-1.47c.29-.06.59-.06.88 0c.59.118 1.099.569 2.118 1.47c2.305 2.039 3.458 3.059 4.445 2.945c.47-.053.913-.256 1.263-.579c.734-.676.734-2.224.734-5.321Z">
+                        </path>
+                        <path stroke-linecap="round" d="M15 6H9"></path>
+                    </g>
+                </svg>
+                <!---->
+                <span
+                    class="absolute hidden inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary-500/0 via-primary-500/70 to-primary-500/0 dark:from-primary-400/0 dark:via-primary-400/40 dark:to-primary-400/0"></span>
+
+                <span
+                    class="absolute hidden h-8 w-8 z-0 rounded-full bg-gray-100 dark:bg-white/10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+                <!---->
+                <span class="sr-only">My favorites</span>
+                <!--]-->
+            </a>
+            <!--]-->
+            <!---->
+        </div>
+    </li>
+    <!--]-->
+    <li class="flex-1"></li>
+    <li>
+        <div class="relative inline-flex btn-changetheme">
+            <!--[-->
+            <button
+                class="relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400">
+
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true" role="img" class="icon w-5 h-5" width="1em" height="1em"
+                    viewBox="0 0 24 24" data-v-bd832875="">
+                    <path fill="currentColor" fill-rule="evenodd"
+                        d="M12 1.25a.75.75 0 0 1 .75.75v2a.75.75 0 0 1-1.5 0V2a.75.75 0 0 1 .75-.75M3.669 3.716a.75.75 0 0 1 1.06-.047L6.95 5.7a.75.75 0 1 1-1.012 1.107L3.716 4.776a.75.75 0 0 1-.047-1.06m16.662 0a.75.75 0 0 1-.047 1.06l-2.222 2.031A.75.75 0 0 1 17.05 5.7l2.222-2.031a.75.75 0 0 1 1.06.047M12 7.75a4.25 4.25 0 1 0 0 8.5a4.25 4.25 0 0 0 0-8.5M6.25 12a5.75 5.75 0 1 1 11.5 0a5.75 5.75 0 0 1-11.5 0m-5 0a.75.75 0 0 1 .75-.75h2a.75.75 0 0 1 0 1.5H2a.75.75 0 0 1-.75-.75m18 0a.75.75 0 0 1 .75-.75h2a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1-.75-.75m-2.224 5.025a.75.75 0 0 1 1.06 0l2.222 2.223a.75.75 0 0 1-1.06 1.06l-2.222-2.222a.75.75 0 0 1 0-1.06m-10.051 0a.75.75 0 0 1 0 1.061l-2.223 2.222a.75.75 0 0 1-1.06-1.06l2.222-2.223a.75.75 0 0 1 1.06 0M12 19.25a.75.75 0 0 1 .75.75v2a.75.75 0 0 1-1.5 0v-2a.75.75 0 0 1 .75-.75"
+                        clip-rule="evenodd"></path>
+                </svg>
+                <span class="sr-only">Change theme</span>
+            </button>
+            <!--]-->
+
+            <!-- <button
+                class="relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400 day hidden">
+
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon w-5 h-5" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M11.017 2.802a9.25 9.25 0 1 0 10.181 10.181A7.25 7.25 0 1 1 11.017 2.802M1.25 12C1.25 6.063 6.063 1.25 12 1.25c.717 0 1.075.571 1.137 1.026c.059.438-.103.995-.606 1.299a5.75 5.75 0 1 0 7.894 7.894c.304-.503.861-.665 1.299-.606c.455.062 1.026.42 1.026 1.137c0 5.937-4.813 10.75-10.75 10.75S1.25 17.937 1.25 12" clip-rule="evenodd"></path></svg>
+
+
+                <span class="sr-only">Change theme</span>
+            </button> -->
+            <!---->
+        </div>
+    </li>
+</ul>
+</nav>
+</header>
+
+<div class="h-32"></div>
+<div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl">
+<!--[-->
+<!--[-->
+<main id="swup" class="transition-fade min-h-screen">
+
+<div class="dark:invert blockquote:not-italic pre:bg-gray-900 img:ring-1 img:ring-gray-200 dark:img:ring-white/10 img:rounded-lg">
+
+    <article>
+        <div class="mb-12  px-4">
+        <h1 class="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100">Building a Secure, Scalable App with Flutter, Supabase, and Cloudinary</h1>
+       
+        <img src="img/cover-samuday.png" onerror="this.setAttribute('data-error', 1)" alt="Shadcn/UI: Design Meets Development" data-nuxt-img="" class="w-full aspect-square object-cover rounded-2xl my-6">
+
+        <div>
+            <h2 id="introduction"><a href="#introduction">Introduction</a></h2>
+            <p class="mb-6">In today’s fast-paced digital world, community-driven applications play a crucial role in connecting people. As a Flutter developer with a strong background in UI/UX design and secure coding, I recently worked on a community application leveraging Flutter, Supabase, and Cloudinary. This tech stack provided the perfect balance of scalability, security, and performance.</p>
+
+            <h3 id="whatisstack" class="my-4"><a href="#whatisstack">Why This Stack?</a></h3>
+            <p class="text-4xl">In today’s fast-paced digital world, community-driven applications play a crucial role in connecting people. As a Flutter developer with a strong background in UI/UX design and secure coding, I recently worked on a community application leveraging Flutter, Supabase, and Cloudinary. This tech stack provided the perfect balance of scalability, security, and performance.</p>
+
+            <ul class="mb-6">
+                <li>Flutter: Cross-platform efficiency with a smooth UI/UX experience.</li>
+                <li>Supabase: Serverless Postgres database with authentication, real-time capabilities, and cloud functions.</li>
+                <li>Cloudinary: Efficient media management and optimized content delivery.</li>
+            </ul>
+
+            <h3 id="highlights" class="my-2"><a href="#highlights">Key Highlights of the Development Process</a></h3>
+
+            <h4 class="text-bold">Advanced UI/UX Design</h4>
+            <p>A seamless, intuitive design was crafted using Figma and Flutter’s modern UI components, ensuring a smooth user experience with minimal friction. Dark mode, micro-interactions, and adaptive layouts were integrated for an enhanced feel.</p>
+
+            <h4 class="text-bold">Security Best Practices</h4>
+            <ul>
+                <li>Implemented Row-Level Security (RLS) in Supabase to control user data access.</li>
+                <li>Used JWT-based authentication for secure logins.</li>
+                <li>Sanitized API calls and prevented SQL injections for a robust backend.</li>
+            </ul>
+
+
+            <h4 class="text-bold">Optimized Media Management with Cloudinary</h4>
+            <ul>
+                <li>Integrated Cloudinary’s AI-powered image transformations for fast-loading images.</li>
+                <li>Used lazy loading and caching strategies to enhance performance.</li>
+                <li>Secured uploads with signed URLs to prevent unauthorized access.</li>
+            </ul>
+
+            <h4 class="text-bold">Scalability and Real-time Features</h4>
+            <ul>
+                <li>Used Supabase Realtime for instant updates in community interactions.</li>
+                <li>Integrated background push notifications with Firebase for engagement.</li>
+                <li>Designed a modular and clean code structure for future scalability.</li>
+            </ul>
+
+            <h3 class="text-bold">Results & Impact</h3>
+            <ul>
+                <li>Fast and engaging UI with modern animations and transitions.</li>
+                <li>Highly secure authentication and user data management.</li>
+                <li>Optimized media handling for seamless user experience.</li>
+                <li>Scalable architecture for growing communities.</li>
+            </ul>
+
+            <p>Building secure, efficient, and user-friendly applications is always my top priority. If you’re looking to create or scale a community-based platform, let’s connect and discuss how we can innovate together!</p>
+
+        </div>
+
+    </article>
+
+
+    
+
+    </div>
+
+</div>
+</main>
+<!--]-->
+<!--]-->
+
+</div>
+
+
+<footer class="max-w-2xl mx-auto text-gray-400 dark:text-gray-600 text-sm text-center pb-8">
+<nav class="flex justify-center gap-6 mb-6">
+<a class="hover:text-primary-400 dark:hover:text-primary-400 transition-colors duration-300" href="/projects.html" as="button" active="false" exact="false" exactquery="false" exacthash="false">
+Projects</a>
+<a class="hover:text-primary-400 dark:hover:text-primary-400 transition-colors duration-300" href="/about.html" as="button" active="false" exact="false" exactquery="false" exacthash="false">
+About</a>
+<a class="hover:text-primary-400 dark:hover:text-primary-400 transition-colors duration-300" href="/bookmarks.html" as="button" active="false" exact="false" exactquery="false" exacthash="false">
+Bookmarks
+</a></nav><br><p><span class="text-primary-400 dark:text-primary-400">© 2025</span> Yogesh Darge. All rights reserved.</p></footer>
+
+<div id="teleports"></div>
+</div>
+
+<!-- Core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/app.js"></script>
+<script src="https://unpkg.com/swup@4"></script>
+<script src="https://unpkg.com/@swup/progress-plugin@3"></script>
+<script src="https://unpkg.com/@swup/scroll-plugin@3"></script>
+
+<script type="text/JavaScript">
+const swup = new Swup({ 
+    cache: false,
+    globalInstance: true,
+    linkSelector: 'a[href]',
+    native: true,
+    plugins: [
+        new SwupProgressPlugin({
+            className: 'swup-progress-bar',
+            transition: 400,
+            delay: 300,
+            initialValue: 0.25,
+            finishAnimation: false
+        }),
+        new SwupScrollPlugin(
+            {
+                animateScroll: {
+                betweenPages: true,
+                samePageWithHash: true,
+                samePage: true
+                }
+            }
+        )
+    ] 
+});
+</script>
+
+</body>
+
+</html>
