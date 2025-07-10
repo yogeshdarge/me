@@ -76,3 +76,4 @@ $(function () {
     $current.find("a span").removeClass("hidden");
   }
 });
+
