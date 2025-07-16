@@ -5216,6 +5216,11 @@ select {
         padding-right: 3rem
     }
 
+    .md\:px-10 {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem
+    }
+
     .md\:py-8 {
         padding-bottom: 2rem;
         padding-top: 2rem
