@@ -1,0 +1,56 @@
+{
+  "basic_info": {
+    "full_name": "Yogesh Tukaram Darge",
+    "preferred_name": "Yogesh",
+    "gender": "Male",
+    "languages": ["English", "Marathi", "Hindi"],
+    "time_zone": "IST (UTC+05:30)",
+    "location": "Mira-Bhayandar, Thane, India",
+    "father_name": "Tukaram",
+    "mother_name": "Kavita",
+    "spouse_name": "Sejal",
+    "daughter_name": "Nurvi",
+    "favourite_colors": ["White", "Black"]
+  },
+  "professional_summary": {
+    "profession": "Software Developer",
+    "title": "Full Stack Mobile & Web Developer",
+    "experience_years": 15,
+    "companies": ["Anurvik® Media Services", "Anurvik®", "Technoserve"],
+    "skills": {
+      "frontend": ["Flutter", "Android (Kotlin/Java)", "iOS (Swift)", "HTML5", "CSS3", "jQuery"],
+      "backend": ["PHP", "MySQL"],
+      "design": ["Adobe Creative Suite", "UI/UX Design"],
+      "automation_ai": ["n8n", "API integrations", "OpenAI agents", "AI workflows"]
+    }
+  },
+  "personality_work_ethic": {
+    "work_style": "Independent, deadline-driven, detail-oriented",
+    "strengths": ["Creative problem solving", "Visual design sense", "Efficient automation"],
+    "weaknesses": ["Deep focus may require break reminders"],
+    "preferred_ai_behavior": "Friendly yet professional, context-aware, helpful suggestions"
+  },
+  "learning_development": {
+    "currently_learning": ["Python", "AI agent workflows", "Data processing"],
+    "learning_style": "Project-based, hands-on, visual aids",
+    "tools": ["ChatGPT", "YouTube", "GitHub", "Official docs", "Udemy"]
+  },
+  "hobbies_interests": {
+    "creative": ["Drawing", "Painting", "Calligraphy", "Photography", "Writing"],
+    "tech": ["Mobile app development", "Automation systems", "AI/ML tools"],
+    "personal_projects": ["Mandali community app", "n8n + OpenAI workflow automation"]
+  },
+  "workflow_preferences": {
+    "ide_editors": ["VS Code", "Android Studio", "Xcode"],
+    "design_tools": ["Adobe XD", "Figma", "Photoshop"],
+    "task_tools": ["Trello", "Notion", "Google Keep"],
+    "best_practices": ["Modular coding", "Version control (Git)", "Cross-platform consistency"]
+  },
+  "ai_usage_goals": [
+    "Automate repetitive workflows using AI",
+    "Build smart context-aware assistants",
+    "Generate clean, efficient code",
+    "Improve UI/UX with intelligent feedback",
+    "Manage and optimize content and branding"
+  ]
+}
