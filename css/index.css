@@ -1642,6 +1642,10 @@ select {
     margin-top: 2rem
 }
 
+.mt-12 {
+    margin-top: 3rem
+}
+
 .line-clamp-1 {
     -webkit-line-clamp: 1;
     line-clamp: 1
@@ -7494,6 +7498,10 @@ label {
     margin-top: 2rem
 }
 
+.mt-12 {
+    margin-top: 3rem
+}
+
 .line-clamp-1 {
     -webkit-line-clamp: 1;
     line-clamp: 1
@@ -12276,4 +12284,72 @@ article ul{
     margin: 1rem;
     padding-left:0.5rem;
     list-style-type: disc;
+}
+
+article ul.nolist{
+    list-style: none;
+}
+
+article ul li{
+    margin: 1rem 0.5rem;
+}
+
+/*  */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto; /* Enables horizontal scroll on small screens */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.responsive-table {
+  width: 100%;
+  min-width: 350px; /* Ensures column structure remains */
+  border-collapse: collapse;
+  font-family: sans-serif;
+  table-layout: fixed;
+}
+
+/* Remove borders */
+.responsive-table th,
+.responsive-table td {
+  border: none;
+  padding: 16px 16px;
+  text-align: left;
+  white-space: normal;         /* Allow wrapping */
+  word-wrap: break-word;       /* Break long words */
+  overflow-wrap: break-word; 
+}
+
+/* Header and footer style */
+.responsive-table thead {
+  font-weight: bold;
+  background: rgba(50, 50, 50,0.1);
+}
+
+.responsive-table tfoot {
+  border-top: 1px solid rgba(50, 50, 50,0.1);
+  border-bottom: 1px solid rgba(50, 50, 50,0.1);
+}
+
+/* Alternating row colors */
+.responsive-table tbody tr:nth-child(odd) {
+  background: rgba(240, 240, 240,0.1);
+}
+
+.responsive-table tbody tr:nth-child(even) {
+  background: rgba(50, 50, 50,0.1);
+}
+
+/* Responsive: Keep horizontal scroll, no stacking */
+@media (max-width: 768px) {
+  .responsive-table {
+    width: 100%;
+  }
+
+  .responsive-table th,
+  .responsive-table td {
+    font-size: 14px;
+    padding: 12px 12px;
+  }
 }
