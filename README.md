@@ -23,7 +23,7 @@ I'm a Full-Stack Mobile & Web Developer with 15+ years of experience in Android,
 ## 🌐 Connect With Me
 
 - [LinkedIn](https://www.linkedin.com/in/yogeshdarge)
-- [GitHub](https://github.com/yourusername)
+- [GitHub](https://github.com/yogeshdarge)
 - [Portfolio Website](https://yogeshdarge.com)
 
 Feel free to explore, fork, or reach out!
