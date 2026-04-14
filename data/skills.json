@@ -1,0 +1,124 @@
+{
+    "expertise": [
+        {
+            "name": "Mobile Applications",
+            "level": 4,
+            "max_level": 5
+        },
+        {
+            "name": "Web Applications",
+            "level": 4.5,
+            "max_level": 5
+        },
+        {
+            "name": "UI\/UX Designing",
+            "level": 4.8,
+            "max_level": 5
+        },
+        {
+            "name": "Creative Designs",
+            "level": 3,
+            "max_level": 5
+        }
+    ],
+    "technical": [
+        {
+            "name": "PHP",
+            "icon": "img\/icon-php.png"
+        },
+        {
+            "name": "jQuery",
+            "icon": "img\/icon-jquery.png"
+        },
+        {
+            "name": "MySQL",
+            "icon": "img\/icon-mysql.png"
+        },
+        {
+            "name": "JavaScript",
+            "icon": "img\/icon-javascript.png"
+        },
+        {
+            "name": "Dart",
+            "icon": "img\/icon-dart.png"
+        },
+        {
+            "name": "Java",
+            "icon": "img\/icon-java.png"
+        },
+        {
+            "name": "Flutter",
+            "icon": "img\/icon-flutter.png"
+        },
+        {
+            "name": "JSON",
+            "icon": "img\/icon-json.png"
+        },
+        {
+            "name": "XML",
+            "icon": "img\/icon-xml.png"
+        },
+        {
+            "name": "ASP\/ASP.Net",
+            "icon": "img\/icon-asp.png"
+        },
+        {
+            "name": "HTML\/HTML5",
+            "icon": "img\/icon-html5.png"
+        },
+        {
+            "name": "CSS\/CSS3",
+            "icon": "img\/icon-css.png"
+        },
+        {
+            "name": "Ajax",
+            "icon": "img\/icon-api.png"
+        },
+        {
+            "name": "Bootstrap",
+            "icon": "img\/icon-bootstrap.png"
+        }
+    ],
+    "tools": [
+        {
+            "name": "Visual Studio Code",
+            "icon": "img\/icon-vscode.png"
+        },
+        {
+            "name": "Android Studio",
+            "icon": "img\/icon-android.png"
+        },
+        {
+            "name": "XCode",
+            "icon": "img\/icon-xcode.png"
+        },
+        {
+            "name": "Photoshop",
+            "icon": "img\/icon-photoshop.png"
+        },
+        {
+            "name": "Illustrator",
+            "icon": "img\/icon-illustrator.png"
+        },
+        {
+            "name": "CorelDRAW",
+            "icon": "img\/icon-coreldraw.png"
+        },
+        {
+            "name": "TablePlus",
+            "icon": "img\/icon-tableplus.png"
+        },
+        {
+            "name": "GitHub",
+            "icon": "img\/icon-github.png"
+        },
+        {
+            "name": "WordPress \/ WooCommerce",
+            "icon": "img\/icon-wordpress.png"
+        },
+        {
+            "name": "Shopify \/ PrestaShop",
+            "icon": "img\/icon-shopify.png"
+        }
+    ]
+}

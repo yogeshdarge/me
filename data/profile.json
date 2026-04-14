@@ -1,0 +1,21 @@
+{
+    "name": "Yogesh Darge",
+    "full_name": "Yogesh Tukaram Darge",
+    "title": "Full Stack Developer (iOS\/Android\/Web) | Flutter Native & Hybrid | UI\/UX Designer | End-to-End Expertise.",
+    "bio": "looking for a full-stack mobile and web developer with years of experience, including expertise in UI\/UX design, development, and integration of front-end and back-end applications?",
+    "description": "I bring extensive knowledge of mobile and web platforms, deep technical expertise, a professional attitude, and a commitment to high-quality code. As a freelancer, I prioritize client satisfaction, respect deadlines, and ensure thorough quality assurance, delivering honest and efficient services every time.",
+    "image": "img\/yogeshdarge.png",
+    "status": {
+        "text": "Busy, but contact me",
+        "color": "yellow",
+        "animated": true
+    },
+    "contact": {
+        "email": "yogeshdarge@gmail.com",
+        "whatsapp": "https:\/\/wa.me\/919892972560",
+        "linkedin": "https:\/\/www.linkedin.com\/in\/yogeshdarge",
+        "facebook": "https:\/\/web.facebook.com\/yogeshdarge",
+        "github": "https:\/\/github.com\/yogeshdarge"
+    },
+    "resume_url": "\/YogeshDarge_Resume.pdf"
+}

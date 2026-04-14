@@ -1,0 +1,46 @@
+{
+    "items": [
+        {
+            "id": "index",
+            "label": "Home",
+            "url": "\/",
+            "icon": "home",
+            "sr_only": "Home"
+        },
+        {
+            "id": "projects",
+            "label": "Projects",
+            "url": "\/projects.php",
+            "icon": "folder",
+            "sr_only": "Projects"
+        },
+        {
+            "id": "articles",
+            "label": "Articles",
+            "url": "\/articles.php",
+            "icon": "edit",
+            "sr_only": "Articles"
+        },
+        {
+            "id": "about",
+            "label": "About",
+            "url": "\/about.php",
+            "icon": "user",
+            "sr_only": "About"
+        },
+        {
+            "id": "whats-in-my-bag",
+            "label": "What's in my bag?",
+            "url": "\/whats-in-my-bag.php",
+            "icon": "bag",
+            "sr_only": "What's in my bag?"
+        },
+        {
+            "id": "bookmarks",
+            "label": "Bookmarks",
+            "url": "\/bookmarks.php",
+            "icon": "bookmark",
+            "sr_only": "My favorites"
+        }
+    ]
+}

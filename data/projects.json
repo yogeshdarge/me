@@ -1,0 +1,39 @@
+{
+    "featured": [
+        {
+            "id": "samuday",
+            "title": "Samuday India",
+            "description": "Marathi Gavali Samuday Community Application",
+            "url": "https:\/\/samuday.in\/",
+            "logo": "img\/logo-samuday.png",
+            "featured": true
+        },
+        {
+            "id": "bluapp",
+            "title": "BluApp",
+            "description": "Privilege App for Gated Community Services offered",
+            "url": "https:\/\/www.bluapps.in\/",
+            "logo": "img\/logo-bluapp.png",
+            "locations": [
+                "Hiranandani Estate Club, Thane",
+                "Hiranandani Gardens, Powai",
+                "Blue Turtle Club, HOH Chennai",
+                "Rodas Enclave Club"
+            ],
+            "featured": true
+        },
+        {
+            "id": "gavalivivah",
+            "title": "Marathi Vivah Matrimonies",
+            "description": "Community-Based Matrimony Apps for Marathi Subcastes",
+            "url": "https:\/\/www.gavalivivah.in\/",
+            "logo": "img\/logo-gavalivivah.png",
+            "sub_projects": [
+                "Marathi Gavali Vivah",
+                "Marathi Vaishyawani Vivah",
+                "Marathi Kumbhar Vivah"
+            ],
+            "featured": true
+        }
+    ]
+}
